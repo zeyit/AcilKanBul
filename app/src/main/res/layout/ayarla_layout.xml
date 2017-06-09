@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adınız"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtAd"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyadınız"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtSoyad"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon numaranız"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtTel"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spKan"
+        android:layout_marginTop="15dp">
+
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spIl"
+        android:layout_marginTop="15dp">
+
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spIlce"
+        android:layout_marginTop="15dp">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnKaydet"
+        android:text="Kaydet"/>
+
+</LinearLayout>

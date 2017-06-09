@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Acil Kan</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_search">Ara</string>
+
+    <string name="google_app_id">57594819958</string>
+
+    <string-array name="KAN_GRUBU">
+        <item>Kan grubunuzu seçin </item>
+        <item>0 Rh+</item>
+        <item>0 Rh-</item>
+
+        <item>A Rh+</item>
+        <item>A Rh-</item>
+
+        <item>B Rh+</item>
+        <item>B Rh-</item>
+
+        <item>AB Rh+</item>
+        <item>AB Rh-</item>
+    </string-array>
+
+</resources>

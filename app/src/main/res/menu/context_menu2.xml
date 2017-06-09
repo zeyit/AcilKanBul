@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mesajGonder"
+        android:orderInCategory="100"
+        android:title="Mesaj Gönder"
+
+        />
+    <item
+        android:id="@+id/ara"
+        android:orderInCategory="100"
+        android:title="Ara"
+
+        />
+</menu>
